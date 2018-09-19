@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
+    <div id="header">
+        <h1>Crystals Collector!</h1>
+    </div>
+</head>
+<body>
+    <body background="assets/images/round.png">
+    <button id="start">start</button>
+    <div id="jumbotron">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes over the random number.</p>
+        <p>The value of each crystal is hidden to you until you click on it.</p>
+        <p>Each time when the game starts, it will change the values of the crystals.</p>
+    </div>
+    <div id ="buttons">
+        <input type="image" src="assets/images/blue2.png" name="saveForm" class="btTxt submit" id="blue" style="height: 80px; width: 100px; "/>
+        <input type="image" src="assets/images/green2.png" name="saveForm" class="btTxt submit" id="green" style="height: 80px; width: 100px; "/>
+        <input type="image" src="assets/images/pink2.png" name="saveForm" class="btTxt submit" id="pink" style="height: 80px; width: 100px; "/>
+        <input type="image" src="assets/images/orange2.png" name="saveForm" class="btTxt submit" id="orange" style="height: 80px; width: 100px; "/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="inline">
+        <div id="randomnumberbox"><h1 id="random-numbers"></h1></div>
+        <div id="totalscoreis">
+            <h5>Your total score is:</h5>
+        </div>
+        <div id="totalscore"><h1 id="scoretotal"></h1></div>
+    </div>
+    <div id="scorecount">
+        <strong><p>- wins</p></strong><div id="wincount"></div>
+        
+        <strong><p>- losses</p></strong><div id="losscount"></div>
+    </div>
+    
+</body>
+</html>

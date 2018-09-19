@@ -1,0 +1,113 @@
+head {
+    max-width: 985px;
+}
+body {
+    max-width: 985px;
+}
+#jumbotron {
+    align-content: center;
+    position: relative;
+    margin-left: 25%;
+    height: 250px;
+    width: 510px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+}
+#totalscoreis {
+    height: 25px;
+    width: 125px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+   
+    
+}
+#buttons {
+    margin-top: 30px;
+    display: block;
+    margin-left: 30%;
+}
+#randomnumberbox {
+    height: 100px;
+    width: 125px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+   
+    
+}
+#scorecount {
+    
+    height: 150px;
+    width: 200px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    margin-left: 40%;
+}
+#totalscore {
+    height: 100px;
+    width: 125px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    
+    
+}
+h1 {
+    border-bottom: 2px;
+    border-bottom-color: black;
+    margin-left: 35%;
+}
+#blue {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    float: left;
+}
+#green {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    float: left;
+}
+#pink {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    float: left;
+}
+#orange {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    float:left;
+}
+#inline {
+    display: inline-block;
+    margin-left: 44%;
+}
+button {
+    margin-left: 44%;
+    background-color: rgb(76, 152, 175); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#wincount {
+     font-weight: bold;
+     font-size: 30px;
+}
+#losscount {
+    font-weight: bolder;
+    font-size: 30px;
+}
